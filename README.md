@@ -11,6 +11,7 @@ _by Victoria Feng_
 **Github** runs in a command line. It have a basic workflow. In **Github**, you can create a directory (folder) or files. 
 Once **Git** is initialized for version control, we call it a repository (repo). 
 You will know more in **Initial Setup**.
+
 ---
 ## Initial Setup
 1. First, you have to go to this URl, www.github.com(https://github.com/). 
@@ -22,13 +23,20 @@ Go to SSH keys tab and copy and paste the second SSH key into Github. Type "**ss
 4. Go to cloud9 tab and open "**github-learning IDE**". On the bottom, there is a box with tabs labed "bash" with your username. 
 Type in "**ssh -T git@github.com**". After you enter it, it should show "Hi <(your username)>! You've successfully authenticated, but Github does not provide shell access".
 If not, you probably made a spelling mistake. 
----
 
+---
 ## Repository Setup
-1- Make sure on the bottom of the box, it says "**<(your username)>: ~/workspace**". "Let's make our own repo"!  
-2- Type in "**mkdir first repo**". Next, type in "**cd first-repo**". Make sure they are all lowercase and never use any spaces, use dash (-).  
+1- Make sure on the bottom of the box, it says "**<(your username)>: ~/workspace**".   
+2- Type in "**mkdir first-repo**". Next, type in "**cd first-repo**". Make sure they are all lowercase and never use any spaces, use dash (-).  
 3- Type in "**git init**". "**Git init**" starts git in our directory, which is now called a repo for version control.  
-4- 
+4- Add a README file to the directory, first-repo. Type in "**touch README.md**".  
+5- Open the README file. Type something in the file. Save, add, and commit change in present tense.
+For example, "**git commit -m "create readme"**".  
+6- Go back to github, go to the top-right corner, "**+**", and press "**New Repository**".  
+7- Name your repository, "**first-repo**". The names always need to be match and create repository.  
+8- Make sure on the top, it says "**SSH**". Copy and Paste the URLinto the box one at a time. Use "**git remote -v**" to make sure you push into the right repo.
+[Here is a picture of it!](file:///C:/Users/user/Pictures/SEP%20Project%201.png)
+
 ---
 ## Workflow & Commands
 
