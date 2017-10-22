@@ -34,13 +34,31 @@ If not, you probably made a spelling mistake.
 For example, "**git commit -m "create readme"**".  
 6- Go back to github, go to the top-right corner, "**+**", and press "**New Repository**".  
 7- Name your repository, "**first-repo**". The names always need to be match and create repository.  
-8- Make sure on the top, it says "**SSH**". Copy and Paste the URLinto the box one at a time. Use "**git remote -v**" to make sure you push into the right repo.
-[Here is a picture of it!](file:///C:/Users/user/Pictures/SEP%20Project%201.png)
+8- Make sure on the top, it says "**SSH**". Copy and Paste the URL into the box one at a time. Use "**git remote -v**" to make sure you push into the right repo.  
+[Image](https://www.evernote.com/shard/s738/sh/0d42b101-224d-4072-b152-04c10293f0f2/05bced06a70ee902f67dd17e8a29fc65)  
 
 ---
 ## Workflow & Commands
-
-
+[Workflow](https://www.evernote.com/shard/s738/sh/0d42b101-224d-4072-b152-04c10293f0f2/05bced06a70ee902f67dd17e8a29fc65)  
+####Workflow of Commands  
+ * **git init**: Creates a new repository.  
+ * **git status**: Keeps track of files which have been edit since the last commit, color in red.
+It also see which command is ready for commitment, color in green.
+ * **git add file.ext**: Add the file(s) that's ready to be commited.
+   * **git add .**: Add the current directory that have changes.
+   * **git add --all**: Add all changes, including deleted files.
+ * "**git commit -m "(short/specific message)"** ": Take a snapshot of changes.
+   * "**git commit -a**": Commit any files you added and commit any files you've changed
+ * "**git push**": To push commits on your local branch to your remote repository
+ * "**git pull**": Fetch and merge changes on the remote server to your working directory
+ * "**rm -rf .git**": Remove hidden files.
+ * "**git log**": See past commits.
+ * "**git diff**": See the difference(s) between current code and the previous changes
+ * "**git clone**": Create a working copy of a local repository
+ * "**git push -u origin master**": Send changes to the master branch of your remote repository
+ * "**git add remote origin URL**": Connect to your local repository to a remote server and push to it
+ * "**git remote -v**": List all currently configured remote repositories
 
 ---
 ## Rolling Back Changes
+[Rollback Summary](https://www.evernote.com/shard/s738/sh/0d42b101-224d-4072-b152-04c10293f0f2/05bced06a70ee902f67dd17e8a29fc65)
