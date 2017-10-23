@@ -40,7 +40,6 @@ For example, "**git commit -m "create readme"**".
 ---
 ## Workflow & Commands
 [Workflow](https://www.evernote.com/shard/s738/sh/0d42b101-224d-4072-b152-04c10293f0f2/05bced06a70ee902f67dd17e8a29fc65)  
-####Workflow of Commands  
  * **git init**: Creates a new repository.  
  * **git status**: Keeps track of files which have been edit since the last commit, color in red.
 It also see which command is ready for commitment, color in green.
@@ -62,3 +61,24 @@ It also see which command is ready for commitment, color in green.
 ---
 ## Rolling Back Changes
 [Rollback Summary](https://www.evernote.com/shard/s738/sh/0d42b101-224d-4072-b152-04c10293f0f2/05bced06a70ee902f67dd17e8a29fc65)
+ * "**git checkout - - <(filename)>**": Replace changes in your working directory with the last content in head
+ * "**git fetch origin**": Fetch the lastest history from the server and point your local master branch
+ * "**git reset --hard origin/master**": Fetch the lastest commits and changes from your server to your local master branch
+ * "**git reset --soft HEAD~1**": Undo lastest commit
+ * "**git reset HEAD~1**": Undoing uncommited changes
+ * "**git reset --hard HEAD~1**": Undo lastest commit
+ * "**git reset HEAD <(filename)>**": Undo adds
+ * "**git log sha/q**": Either sha or q to get the commit to quit
+ * "**git revert**": Undo changes on a public branch; Undo commited changes
+ * [Git Revert Example](https://www.evernote.com/shard/s738/sh/d34e85bf-32b0-4af0-b187-b0f1bdf03385/efb76703afbdc5858bda65f8d16c3ce1)
+   *  where a is the lastest commit
+   * where b is the commit before that
+   * where c is the 3rd lastest commit
+
+---
+## Collaboration
+ * ***Forking***: Produce a copy of a repository to your Github account
+ * ***Cloning***: Make a copy to your local repository and making it your own remote
+ * ***Pull Request***: Offering changes to orginal project by making it better  
+   * The Master of the repository can accept or deny your offers of changes  
+[Collaboration Workflow](https://www.evernote.com/shard/s738/sh/a86ba871-432d-4e88-8351-bd38ae5c509e/12749a8a9e5763fb702164217cd857bf)
