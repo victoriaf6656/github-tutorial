@@ -7,10 +7,10 @@ _by Victoria Feng_
 * **Git** is a tool to manage your source code history; doesn't require Github. 
 * **Github** store code in the cloud and visually track changes; requires Git.
 
-**Github** is a website where you run **Git** and become into repositories or projects, while **Git** is a repository when you manage your codes.
+**Github** is a website where you run **Git** and becomes a repositories or projects, while **Git** is a repository you can manage your codes.
 **Github** runs in a command line. It have a basic workflow. In **Github**, you can create a directory (folder) or files. 
 Once **Git** is initialized for version control, the directory will say master next to it. 
-You will know more in **Initial Setup**.
+You will know more in **Initial Setup**. ``(Please edit to actually talk about initializing in the inital setup)``
 
 ---
 ## Initial Setup
