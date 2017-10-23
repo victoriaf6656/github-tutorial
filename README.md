@@ -55,7 +55,7 @@ It also see which command is ready for commitment, color in green.
  * "**git clone**": Create a working copy of a local repository
  * "**git push -u origin master**": Send changes to the master branch of your remote repository
  * "**git add remote origin URL**": Connect to your local repository to a remote server and push to it
- * "**git remote -v**": List all currently configured remote repositories
+ * "**git remote -v**": List all currently configured remote repositories  
 [Workflow](https://www.evernote.com/shard/s738/sh/ea43fe4f-16cf-4a94-9296-de37ddf747d4/03fe453854151f3c1fa6578020203848)
 
 ---
@@ -72,7 +72,7 @@ It also see which command is ready for commitment, color in green.
  * [Git Revert Example](https://www.evernote.com/shard/s738/sh/d34e85bf-32b0-4af0-b187-b0f1bdf03385/efb76703afbdc5858bda65f8d16c3ce1)
    *  where a is the lastest commit
    * where b is the commit before that
-   * where c is the 3rd lastest commit
+   * where c is the 3rd lastest commit  
 [Rollback Summary](https://www.evernote.com/shard/s738/sh/0d42b101-224d-4072-b152-04c10293f0f2/05bced06a70ee902f67dd17e8a29fc65)
 
 ---
