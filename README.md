@@ -35,11 +35,10 @@ For example, "**git commit -m "create readme"**".
 6- Go back to github, go to the top-right corner, "**+**", and press "**New Repository**".  
 7- Name your repository, "**first-repo**". The names always need to be match and create repository.  
 8- Make sure on the top, it says "**SSH**". Copy and Paste the URL into the box one at a time. Use "**git remote -v**" to make sure you push into the right repo.  
-[Image](https://www.evernote.com/shard/s738/sh/0d42b101-224d-4072-b152-04c10293f0f2/05bced06a70ee902f67dd17e8a29fc65)  
+[Image](https://www.evernote.com/shard/s738/sh/b151dfce-8de1-412d-a3b2-efe48d5e47b6/12540d7d03c5a6b2e2aabbc3507ffa83)  
 
 ---
 ## Workflow & Commands
-[Workflow](https://www.evernote.com/shard/s738/sh/0d42b101-224d-4072-b152-04c10293f0f2/05bced06a70ee902f67dd17e8a29fc65)  
  * **git init**: Creates a new repository.  
  * **git status**: Keeps track of files which have been edit since the last commit, color in red.
 It also see which command is ready for commitment, color in green.
@@ -57,10 +56,10 @@ It also see which command is ready for commitment, color in green.
  * "**git push -u origin master**": Send changes to the master branch of your remote repository
  * "**git add remote origin URL**": Connect to your local repository to a remote server and push to it
  * "**git remote -v**": List all currently configured remote repositories
+[Workflow](https://www.evernote.com/shard/s738/sh/ea43fe4f-16cf-4a94-9296-de37ddf747d4/03fe453854151f3c1fa6578020203848)
 
 ---
 ## Rolling Back Changes
-[Rollback Summary](https://www.evernote.com/shard/s738/sh/0d42b101-224d-4072-b152-04c10293f0f2/05bced06a70ee902f67dd17e8a29fc65)
  * "**git checkout - - <(filename)>**": Replace changes in your working directory with the last content in head
  * "**git fetch origin**": Fetch the lastest history from the server and point your local master branch
  * "**git reset --hard origin/master**": Fetch the lastest commits and changes from your server to your local master branch
@@ -74,6 +73,7 @@ It also see which command is ready for commitment, color in green.
    *  where a is the lastest commit
    * where b is the commit before that
    * where c is the 3rd lastest commit
+[Rollback Summary](https://www.evernote.com/shard/s738/sh/0d42b101-224d-4072-b152-04c10293f0f2/05bced06a70ee902f67dd17e8a29fc65)
 
 ---
 ## Collaboration
